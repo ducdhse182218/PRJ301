@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>RegisterPage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="/register" method="get">
+            <table>
+                <tr>
+                    <td colspan="2" style="font-weight: bold">LOGIN INFORMATION</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="font-weight: bold">USER INFORMATION</td>
+                </tr>
+                <tr>
+                    <td>Fullname:</td>
+                    <td><input type="text" name="fullname" id="fullname"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" id="gender_male" value="male" checked="checked"><br>
+                        <input type="radio" name="gender" id="gender_female" value="female">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date Of Birth</td>
+                    <td>
+                        <select name="dateOfBirth" id="dateOfBirth">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select name="dateOfBirth" id="dateOfBirth">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                        </select>
+                        <select name="dateOfBirth" id="dateOfBirth">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile:</td>
+                    <td><input type="tel" name="mobile" id="mobile"></td>
+                </tr>
+                <tr>
+                    <td>Avatar</td>
+                    <td><input type="file" name="avatar" id="avatar"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="font-weight: bold">USER ADDRESS</td>
+                </tr>
+                <tr>
+                    <td>Country:</td>
+                    <td>
+                        <select>
+                            <option value=""></option>
+                            <option value="Vietnam">Vietnam</option>
+                            <option value="America">America</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Australia">Australia</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td>
+                        <select>
+                            <option value=""></option>
+                            <option value="HCM">Hồ Chí Minh</option>
+                            <option value="HN">Hà Nội</option>
+                            <option value="DN">Đà Nẵng</option>
+                            <option value="HP">Hải Phòng</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>District:</td>
+                    <td>
+                        <select>
+                            <option value=""></option>
+                            <option value="TD">Thủ Đức</option>
+                            <option value="BT">Bình Thạnh</option>
+                            <option value="GV">Gò Vấp</option>
+                            <option value="BT">Bình Tân</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Home address:</td>
+                    <td>
+                        <textarea name="homeAddress">
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Register">
+                        <input type="reset" value="Clear Form">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
